@@ -40,5 +40,3 @@ const publicAddress = await torus.getPublicAddress({
 });
 ```
 
-## 
-

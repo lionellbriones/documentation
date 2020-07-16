@@ -1,6 +1,6 @@
 # Key Generation and Resharing
 
-### Key Generation <a id="key-generation"></a>
+## Key Generation <a id="key-generation"></a>
 
 Since key generation is an activity that requires several rounds of communication, it is unwise to do this whenever a user requires new keys. Instead, we generate buffers of unassigned keys ahead of time, so that we only need to assign them to users when they request for new keys.‌
 
@@ -12,7 +12,7 @@ At the end of the distributed key generation process, the nodes are left with a 
 
 The constant coefficient of this master polynomial is the user's private key.
 
-### Proactive Secret Sharing
+## Proactive Secret Sharing
 
 The Torus network functions in epochs. Each epoch has a set of nodes that are in charge of the node operations, and when they are done, they migrate the necessary state over to the next epoch's nodes. Since our entire system does not store any state other than the mappings of TorusIDs to user IDs and private keys, the only systems needed are the ones that migrate mappings and private keys across epochs.‌
 

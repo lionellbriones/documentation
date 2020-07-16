@@ -55,8 +55,6 @@ interface Callback<ResultType> {
 const web3 = new Web3(torus.provider);
 ```
 
-
-
 ## setProvider
 
 This changes the network provider to a specified network. You can pass an RPC endpoint here. Opens a popup that requires user confirmation.

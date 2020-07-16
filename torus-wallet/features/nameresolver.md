@@ -4,7 +4,7 @@ All you need is a Google email or social ID in the recipient field. Users can tr
 
 ![Name resolver](../../.gitbook/assets/nameresolver.png)
 
-### How does this work?
+## How does this work?
 
 Read the [overview](https://docs.tor.us/#operation)
 

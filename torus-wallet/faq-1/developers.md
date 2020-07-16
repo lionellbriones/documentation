@@ -8,7 +8,7 @@ For DApp integrations, refer the ["Getting Started"](../../getting-started.md) s
 
 ### Can I use the Torus wallet outside of a browser context? Why doesn't it work in NodeJS?
 
-There are several restrictions. Some integrations are possible \(eg. native support, Chrome extensions\), whereas others are not \(eg. using Torus wallet in a server context\). Right now, we only have browser based support. 
+There are several restrictions. Some integrations are possible \(eg. native support, Chrome extensions\), whereas others are not \(eg. using Torus wallet in a server context\). Right now, we only have browser based support.
 
 Using it directly in NodeJS via require will **not** work since the SDK relies on browser capabilities like service workers and window.open.
 
@@ -26,7 +26,7 @@ You might be running on non-secure domains, which don't have window.crypto enabl
 
 ### Why doesn't Torus Wallet work for my dapp in Firefox/IE?
 
-The Torus Wallet relies on many browser-specific technologies which differ in implementation. We try to make the Torus Wallet compatible with as many browsers as possible, but browser updates can change some of these behaviours. If your dapp isn't working in a specific browser, please check out the issues [here](https://github.com/torusresearch/torus-website/issues) to see if it has already been raised or resolved. 
+The Torus Wallet relies on many browser-specific technologies which differ in implementation. We try to make the Torus Wallet compatible with as many browsers as possible, but browser updates can change some of these behaviours. If your dapp isn't working in a specific browser, please check out the issues [here](https://github.com/torusresearch/torus-website/issues) to see if it has already been raised or resolved.
 
 ### How is my private key stored?
 
@@ -34,7 +34,7 @@ Torus splits a user’s private keys into shares across a network of nodes, and 
 
 ### Should I backup my keys?
 
-Our nodes have managed volumes and snapshot policies to ensure that key shares are not lost. We also have coverage that extends to key loss due to technical failures. 
+Our nodes have managed volumes and snapshot policies to ensure that key shares are not lost. We also have coverage that extends to key loss due to technical failures.
 
 ### Can I get access to a user's private keys?
 
@@ -42,11 +42,11 @@ No...
 
 ### When do I need to update the SDK to get new features?
 
-The SDK \([torus-embed](https://github.com/torusresearch/torus-embed)\) is a Javascript package that loads our wallet website \([torus-website](https://github.com/torusresearch/torus-website)\) in an iframe. Methods that are called from the SDK are relayed to the iframe via the browser's Window.postMessage API. 
+The SDK \([torus-embed](https://github.com/torusresearch/torus-embed)\) is a Javascript package that loads our wallet website \([torus-website](https://github.com/torusresearch/torus-website)\) in an iframe. Methods that are called from the SDK are relayed to the iframe via the browser's Window.postMessage API.
 
- By default, the SDK always fetches the latest version of the website, so if there are new features within the website, it is automatically available when the website is updated. You can turn this off by specifying integrityParams in the initialization.
+By default, the SDK always fetches the latest version of the website, so if there are new features within the website, it is automatically available when the website is updated. You can turn this off by specifying integrityParams in the initialization.
 
-However, if there are new features in the SDK you'll need to update the SDK to get the new features. The SDK cannot update itself automatically. 
+However, if there are new features in the SDK you'll need to update the SDK to get the new features. The SDK cannot update itself automatically.
 
 ## Privacy
 
@@ -68,7 +68,7 @@ Most Oauth providers already solve this problem by auto-approving the login requ
 
 ### What is Shamir secret sharing?
 
-2 points make a line right? Draw a straight line and write down the coordinates of 3 points. Erase the line. 
+2 points make a line right? Draw a straight line and write down the coordinates of 3 points. Erase the line.
 
 You now need at least 2 out of 3 of the points are required to reconstruct the line.
 

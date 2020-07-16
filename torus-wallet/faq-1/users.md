@@ -34,7 +34,7 @@ Torus splits a user’s private keys across a network of nodes, and allows a use
 
 ### Why should I use Torus?
 
-Torus relieves you from the hassle of the complicated process of setting up a new blockchain wallet needed to start using a DApp. 
+Torus relieves you from the hassle of the complicated process of setting up a new blockchain wallet needed to start using a DApp.
 
 ### Is using Torus free?
 
@@ -52,7 +52,7 @@ Not at the moment, no.
 
 ### How should I log in?
 
-To use any DApps supporting by Torus, you would simply need to log in with any of the supported logins \(eg. Google, Facebook, etc.\). 
+To use any DApps supporting by Torus, you would simply need to log in with any of the supported logins \(eg. Google, Facebook, etc.\).
 
 ### Why should I use my Google Account?
 
@@ -74,7 +74,7 @@ Torus has a strict privacy policy and believes strongly in an individual's right
 
 ### Why should I unblock the popup?
 
-Using popups as the login page is the most secure way of logging in and interacting with our wallet. In-page windows or modals carry the risk of clickjacking, a malicious technique which creates a version of our login page that is invisible to the user in an attempt to steal their login information. 
+Using popups as the login page is the most secure way of logging in and interacting with our wallet. In-page windows or modals carry the risk of clickjacking, a malicious technique which creates a version of our login page that is invisible to the user in an attempt to steal their login information.
 
 Although popups can be slightly user-unfriendly, we prioritize security over convenience.
 
@@ -92,11 +92,11 @@ Every transaction on the blockchain is required to be signed with your wallet's 
 
 ### What is gas? What is gas price? What are transaction fees?
 
-The Ethereum network handles only a limited number of transactions. Some transactions are very complex, and require more time to process than others. In order to ensure that the network is not overly congested, Ethereum has a transaction processing protocol that charges users for processing transactions, that is akin to toll fees for vehicles on a highway. 
+The Ethereum network handles only a limited number of transactions. Some transactions are very complex, and require more time to process than others. In order to ensure that the network is not overly congested, Ethereum has a transaction processing protocol that charges users for processing transactions, that is akin to toll fees for vehicles on a highway.
 
 The total amount of transaction fee that you have to pay for each transaction is the amount of gas multiplied by the gas price.
 
-For lightweight transactions \(think: motorcycles\), the gas required  is low.
+For lightweight transactions \(think: motorcycles\), the gas required is low.
 
 For complex transactions \(think: cars\), the gas required is high.
 
@@ -118,19 +118,19 @@ Digital assets on the blockchain vary in value, for more information on the pric
 
 ### Can other people see my transactions?
 
-Yes, in general, transactions on Ethereum are public. 
+Yes, in general, transactions on Ethereum are public.
 
 ### What's an "external transaction" in the transaction history page?
 
 These are transactions that were sent to you / you sent, that weren't initiated from the Torus Wallet. If you exported your private key and used it on other wallets, or if an non-Torus wallet sent you cryptocurrency, it will show up as an "external transaction".
 
-We detect these transactions by consulting 3rd block explorer services like Etherscan for publicly viewable transaction information. 
+We detect these transactions by consulting 3rd block explorer services like Etherscan for publicly viewable transaction information.
 
 ## Cookies
 
 ### Why is Torus asking me to enable cookies? How can I enable cookies?
 
-Torus does not store cookies, but our 3rd-party login providers do. For example, Google login stores a cookie in your browser for authentication purposes. 
+Torus does not store cookies, but our 3rd-party login providers do. For example, Google login stores a cookie in your browser for authentication purposes.
 
 You can check out this article here to figure out how to enable cookies for your device and browser: [https://medium.com/@akohubteam/how-to-enable-third-party-cookies-on-your-browsers-f9a8143b8cc5](https://medium.com/@akohubteam/how-to-enable-third-party-cookies-on-your-browsers-f9a8143b8cc5)
 

@@ -22,7 +22,7 @@ const torus = new DirectWebSdk({
 await torus.init();
 ```
 
- 7. Trigger the login
+1. Trigger the login
 
 ```javascript
 const userInfo = await torus.triggerLogin({
@@ -36,5 +36,5 @@ const userInfo = await torus.triggerLogin({
 Reach out to [hello@tor.us](mailto:hello@tor.us) to get your verifier spun up on the testnet today!
 {% endhint %}
 
-For integration into other mobile, native or other platforms please refer to [Integrating DirectAuth](integrating-directauth/). 
+For integration into other mobile, native or other platforms please refer to [Integrating DirectAuth](integrating-directauth/).
 

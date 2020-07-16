@@ -7,9 +7,9 @@ description: >-
 
 # Overview and Architecture
 
-### General Overview <a id="general-overview"></a>
+## General Overview <a id="general-overview"></a>
 
-_This document serves primarily as a guide to Torus, and not as a technical specification. It may become outdated. For the latest and greatest, check out our_ [_open-source code_](https://github.com/torusresearch/)_. For a  high-level intuitive overview also do checkout_ [_DKGs and Torus_](https://medium.com/toruslabs/what-distributed-key-generation-is-866adc79620)_._
+_This document serves primarily as a guide to Torus, and not as a technical specification. It may become outdated. For the latest and greatest, check out our_ [_open-source code_](https://github.com/torusresearch/)_. For a high-level intuitive overview also do checkout_ [_DKGs and Torus_](https://medium.com/toruslabs/what-distributed-key-generation-is-866adc79620)_._
 
 ![](../.gitbook/assets/graph-6-final.png)
 
@@ -25,8 +25,4 @@ A smart contract is used for node discovery. Nodes are selected, operate for a f
 When a user arrives at a DApp, the client is loaded. From there, a user logs in, they provide proof that they are logged in, and the proof is verified by each node individually. This proof is integrated with the modern OAuth 2.0 Token Authentication flow. For new users, nodes will assign a new key share from the pre-generated set of key shares, and store this assignment in an internal mapping. For returning users, nodes will look up their internal mapping and return that user's corresponding key share.‌
 
 The client then assembles these shares and reconstructs the users key in the front-end. This key is kept for the session and is not persisted in localstorage, or for native apps kept in memory for a session.
-
-
-
-### 
 

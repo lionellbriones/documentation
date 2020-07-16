@@ -13,5 +13,5 @@ The tiers are as follows:
 * Low \($200\) - Bugs that do not directly compromise security but have the potential to affect users adversely and cause loss of funds
   * Eg. Spoofing authentication emails, presenting wrong information on the wallet
 
-In order to ensure that your bug report is valid and has not already been reported, please reach out to hello@tor.us directly. 
+In order to ensure that your bug report is valid and has not already been reported, please reach out to hello@tor.us directly.
 

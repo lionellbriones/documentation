@@ -16,5 +16,3 @@ We have shortlisted the top 3 applications for your easy reference on how Torus 
 
 For code snippets from Torus on how to integrate, do also [check these out](https://github.com/torusresearch/torus-embed/tree/master/examples)
 
-
-

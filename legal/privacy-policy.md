@@ -94,7 +94,7 @@ Google may use the Data collected to contextualize and personalize the ads of it
 
 Personal Data collected: Cookies; Usage Data.
 
-Place of processing: United States – [Privacy Policy](https://policies.google.com/privacy) 
+Place of processing: United States – [Privacy Policy](https://policies.google.com/privacy)
 
 Users who wish to opt out of Google Analytics can do so by installing the browser extension [Opt Out](https://tools.google.com/dlpage/gaoptout?hl=en). Privacy Shield participant.
 

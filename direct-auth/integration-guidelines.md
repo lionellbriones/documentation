@@ -14,8 +14,6 @@ It would be ideal for DirectAuth branding \(Image A\) to be located at the botto
 
 ![Image C: Application Sign in \(Full Page\)](../.gitbook/assets/app-sign-in-full-screen.png)
 
-
-
 ## **A separate version in Dark Mode is available**
 
 ![](../.gitbook/assets/directauth-dark-logo.png)

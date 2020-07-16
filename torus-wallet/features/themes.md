@@ -4,11 +4,11 @@ We provide a dark and light theme for users to choose. Customise the wallet them
 
 ![](../../.gitbook/assets/display-theme.png)
 
-### Light Theme
+## Light Theme
 
 ![](../../.gitbook/assets/light.png)
 
-### Dark theme
+## Dark theme
 
 ![](../../.gitbook/assets/dark.png)
 

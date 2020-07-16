@@ -7,5 +7,3 @@
 * \*\*\*\*[**Top-up**](topup.md) **or fiat-to-crypto integrations**
 * \*\*\*\*[**Ethereum**](ethereum-api.md)\*\*\*\*
 
-
-

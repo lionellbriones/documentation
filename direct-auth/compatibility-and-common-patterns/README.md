@@ -11,5 +11,5 @@ This section briefly outlines techniques and patterns that applications have use
 * **Session Management**
 * **Different Elliptic Curve/Key Derivation**
 
-For some of these patterns we have tools to/templated implementations which make implementing these complex patterns/architectures easier. Do get in contact to find out more! 
+For some of these patterns we have tools to/templated implementations which make implementing these complex patterns/architectures easier. Do get in contact to find out more!
 

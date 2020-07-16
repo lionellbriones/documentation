@@ -21,15 +21,3 @@ The steps for integration are:
 
 Reach out to hello@tor.us or our [dev chat](https://t.me/torusdev) to get a test-net spun up to play with today or get started with [Designing Your Key Management Architecture](designing-your-key-management-architecture.md). If you're looking to get your hands dirty, head to [quick start](../quick-start.md)
 
-
-
-
-
-
-
-
-
-
-
-
-
